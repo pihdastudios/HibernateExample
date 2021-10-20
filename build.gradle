@@ -41,6 +41,12 @@ dependencies {
     implementation 'org.hibernate.validator:hibernate-validator:7.0.1.Final'
     implementation 'org.hibernate.validator:hibernate-validator-annotation-processor:7.0.1.Final'
     implementation 'org.hibernate.validator:hibernate-validator-cdi:7.0.1.Final'
+
+    runtimeOnly 'org.xerial:sqlite-jdbc:3.36.0.3'
+    runtimeOnly 'com.github.gwenn:sqlite-dialect:0.1.2'
+//    compileOnly 'org.apache.sling:org.apache.sling.commons.osgi:2.4.2'
+    implementation 'org.osgi:org.osgi.util.converter:1.0.8'
+    implementation 'c3p0:c3p0:0.9.1.2'
 }
 
 test {
