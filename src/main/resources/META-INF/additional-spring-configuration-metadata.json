@@ -1,2 +1,9 @@
 {
+  "properties": [
+    {
+      "name": "hibernate.packagesToScan",
+      "type": "java.lang.String",
+      "description": "Description for hibernate.packagesToScan."
+    }
+  ]
 }
